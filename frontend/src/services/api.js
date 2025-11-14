@@ -11,7 +11,7 @@ export const fetchStudyData = async (topic, mode = 'default') => {
         topic,
         mode
       },
-      timeout: 600000 // 30 seconds timeout
+      timeout: 60000
     });
 
     if (response.data.success) {
